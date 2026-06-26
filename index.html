@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeganraj Palanisamy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">Jeganraj<span>.</span></a>
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="jeganraj_resume_universal.pdf" download class="nav-resume">Resume ↓</a>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home">
+    <div class="home-inner">
+      <div class="home-text">
+        <p class="home-greeting">Hi, I'm</p>
+        <h1 class="home-name">Jeganraj<br>Palanisamy</h1>
+        <p class="home-role">Full Stack Developer <span class="role-sep">/ IT Undergraduate</span></p>
+        <p class="home-bio">
+          Final-year B.Tech student at Dr. N.G.P Institute of Technology, Coimbatore.
+          I build real things — from IoT robots to ML pipelines to full-stack platforms
+          that actual people use. 300+ LeetCode. IIT Madras Top 10. Still learning every day.
+        </p>
+        <div class="home-actions">
+          <a href="#projects" class="btn-main">See my work</a>
+          <a href="#contact" class="btn-outline">Get in touch</a>
+        </div>
+        <div class="home-socials">
+          <a href="https://linkedin.com/in/jeganraj-palanisamy" target="_blank" rel="noopener">
+            <img src="linkedin.png" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/jeganraj" target="_blank" rel="noopener">
+            <img src="github.png" alt="">
+            <!-- <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-label="GitHub">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.57C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg> -->
+          </a>
+          <a href="https://www.instagram.com/jegxnz__?igsh=ZnhjcTgyMTZ4YnN4" target="_blank" rel="noopener">
+            <img src="instagram.png" alt="Instagram" />
+          </a>
+          <!-- <a href="https://twitter.com" target="_blank" rel="noopener">
+            <img src="twitter.png" alt="Twitter / X" />
+          </a> -->
+        </div>
+      </div>
+      <div class="home-photo">
+        <img src="myimage.png" alt="Jeganraj Palanisamy" />
+      </div>
+    </div>
+    <div class="home-scroll-hint" aria-hidden="true">scroll ↓</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="about-left">
+        <span class="section-label">About me</span>
+        <h2 class="section-title">The person<br><em>behind the code</em></h2>
+        <p>
+          I'm Jeganraj — a student who got hooked on building things. It started with an IoT lawn-cutting robot
+          for a college project, and since then I haven't really stopped. I like working on problems where
+          the solution is used by real people — classmates, farmers, hostel admins.
+        </p>
+        <p>
+          Outside of code I've been Class Rep for 60+ students, volunteered with NSS, led teams through 
+          national hackathons, and organized more industry visits. I work best when I'm 
+          slightly outside my comfort zone.
+        </p>
+        <p>
+          Finished my internship at Nunnari Labs, building production features in an Agile team. 
+          Open to internships, collabs, and anything interesting.
+        </p>
+        <div class="edu-block">
+          <div class="edu-item">
+            <span class="edu-year">2023 – 2027</span>
+            <div>
+              <strong>B.Tech – Information Technology</strong>
+              <span>Dr. N.G.P Institute of Technology, Coimbatore &nbsp;·&nbsp; CGPA 7.93</span>
+            </div>
+          </div>
+          <div class="edu-item">
+            <span class="edu-year">2022 – 2023</span>
+            <div>
+              <strong>HSC — 84.83%</strong>
+              <span>Little Angels Hr. Sec. School, Namakkal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="skills-block">
+          <p class="skills-intro">Things I work with —</p>
+          <div class="skill-row">
+            <span class="skill-cat">Languages</span>
+            <div class="skill-tags">
+              <span>Java</span><span>Python</span><span>JavaScript</span><span>C</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-cat">Frontend</span>
+            <div class="skill-tags">
+              <span>React.js</span><span>HTML5</span><span>CSS3</span><span>Tailwind</span><span>Bootstrap</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-cat">Backend</span>
+            <div class="skill-tags">
+              <span>Node.js</span><span>Express.js</span><span>Spring Boot</span><span>REST APIs</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-cat">Databases</span>
+            <div class="skill-tags">
+              <span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>Supabase</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-cat">AI / ML</span>
+            <div class="skill-tags">
+              <span>TensorFlow</span><span>Pandas</span><span>NumPy</span><span>EfficientNet</span><span>VGG16</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-cat">Tools</span>
+            <div class="skill-tags">
+              <span>Git</span><span>GitHub</span><span>Figma</span><span>Postman</span><span>VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-inner">
+      <span class="section-label">Experience</span>
+      <h2 class="section-title">Where I've<br><em>worked & led</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="t-year">2025</span>
+            <span class="t-type">Internship</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Software Development Intern</h3>
+            <span class="t-org">Nunnari Labs Pvt Ltd · Coimbatore</span>
+            <ul>
+              <li>Built production modules using OOP principles — improved reusability across the codebase.</li>
+              <li>Worked in Agile/Scrum — sprint planning, code reviews, retrospectives.</li>
+              <li>Fixed bugs through root-cause analysis; wrote test cases to prevent regression.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="t-year">2024–25</span>
+            <span class="t-type">Leadership</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Hackathon Team Lead</h3>
+            <span class="t-org">Multiple National Events</span>
+            <ul>
+              <li>Led cross-functional teams through 24–48 hr sprints — Top 10 at IIT Madras Shaastra, Top 100 at ICT Hackathon 2025 (3,000+ teams).</li>
+              <li>Handled task delegation, conflict resolution, and team morale under pressure.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="t-year">2023–25</span>
+            <span class="t-type">Campus</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Class Representative & NSS Volunteer</h3>
+            <span class="t-org">Dr. N.G.P Institute of Technology</span>
+            <ul>
+              <li>Elected Class Rep for 60+ students — primary liaison between students and faculty.</li>
+              <li>Co-organized 5+ intercollege technical events; participated in NSS community outreach programs.</li>
+              <li>Organized multiple industry visits to technology organizations.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-inner">
+      <span class="section-label">Projects</span>
+      <h2 class="section-title">Things I've<br><em>actually built</em></h2>
+
+      <!-- Featured -->
+      <div class="project-featured">
+        <div class="pf-image">
+          <img src="Iotcutter.jpg" alt="IoT Automatic Lawn Cutter" />
+        </div>
+        <div class="pf-info">
+          <span class="p-number">01</span>
+          <h3>IoT Based Automatic Lawn Cutter</h3>
+          <p>
+            My first real hardware-software project. Built an autonomous robot that navigates a lawn, 
+            avoids obstacles using ultrasonic sensors, and can be monitored remotely over Wi-Fi. 
+            100% lawn coverage through custom navigation logic. This is the one that started everything.
+          </p>
+          <div class="p-stack">
+            <span>IoT</span><span>Arduino</span><span>Embedded C</span><span>Ultrasonic Sensors</span><span>Wi-Fi Module</span>
+          </div>
+          <span class="p-year">2023</span>
+        </div>
+      </div>
+
+      <!-- Grid -->
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="pc-img">
+            <img src="shopingcart.png" alt="Consultancy Shopping Cart" />
+          </div>
+          <div class="pc-info">
+            <span class="p-number">02</span>
+            <h3>Consultancy Shopping Cart</h3>
+            <p>
+              Built for a real retail client — Palamuthir Nilayam. Real-time inventory management, 
+              shopping cart, and a live owner dashboard with daily/weekly/monthly analytics using Chart.js. 
+              Reduced their manual tracking effort by 60%.
+            </p>
+            <div class="p-stack">
+              <span>React.js</span><span>Node.js</span><span>MySQL</span><span>Chart.js</span><span>REST APIs</span>
+            </div>
+            <span class="p-year">2026</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="pc-img">
+            <img src="hostelmanagement.png" alt="Hostel Management System" />
+          </div>
+          <div class="pc-info">
+            <span class="p-number">03</span>
+            <h3>Hostel Management System</h3>
+            <p>
+              Full-stack platform serving 300+ users. 10+ modules covering room allocation, complaint 
+              management, and fee tracking. JWT auth with Role-Based Access Control for students 
+              and admins. Optimised PostgreSQL for high-volume concurrent users.
+            </p>
+            <div class="p-stack">
+              <span>React.js</span><span>Node.js</span><span>PostgreSQL</span><span>JWT</span><span>RBAC</span>
+            </div>
+            <span class="p-year">2025</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="pc-img">
+            <img src="braintumor.png" alt="Brain Tumor Detection" />
+          </div>
+          <div class="pc-info">
+            <span class="p-number">04</span>
+            <h3>Brain Tumor Detection & Classification</h3>
+            <p>
+              End-to-end deep learning pipeline — data ingestion, preprocessing, augmentation, 
+              transfer learning with EfficientNet-B0 and VGG16. 95% prediction accuracy. 
+              Built an interactive GUI so non-technical medical staff can upload MRI scans 
+              and get real-time results.
+            </p>
+            <div class="p-stack">
+              <span>Python</span><span>TensorFlow</span><span>EfficientNet-B0</span><span>VGG16</span><span>Pandas</span>
+            </div>
+            <span class="p-year">2026</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="pc-img">
+            <img src="agrilink.png" alt="AgriLink" />
+          </div>
+          <div class="pc-info">
+            <span class="p-number">05</span>
+            <h3>AgriLink — Direct Farmer Marketing</h3>
+            <p>
+              Connected farmers directly with consumers — no middlemen, transparent pricing, 
+              real-time negotiation via REST APIs. Fully responsive UI built specifically for 
+              rural users on low-bandwidth connections. A problem that actually needed solving.
+            </p>
+            <div class="p-stack">
+              <span>React.js</span><span>Node.js</span><span>MongoDB</span><span>REST APIs</span>
+            </div>
+            <span class="p-year">2024</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements">
+    <div class="section-inner">
+      <span class="section-label">Achievements</span>
+      <h2 class="section-title">Things I'm<br><em>proud of</em></h2>
+
+      <div class="ach-layout">
+        <div class="ach-left">
+          <h3 class="ach-sub">Competitions & Hackathons</h3>
+          <div class="ach-list">
+            <div class="ach-item gold">
+              <div class="ach-rank">1st Price(₹500)</div>
+              <div class="ach-detail">
+                <strong>BugBash — Code Debugging</strong>
+                <span>GCT, Coimbatore 2025</span>
+              </div>
+            </div>
+            <div class="ach-item bronze">
+              <div class="ach-rank">3rd Price(₹300 )</div>
+              <div class="ach-detail">
+                <strong>WebWizard — Web Development</strong>
+                <span>GCT, Coimbatore 2025</span>
+              </div>
+            </div>
+            <div class="ach-item special">
+              <div class="ach-rank">Top 10</div>
+              <div class="ach-detail">
+                <strong>Clash of Code — Shaastra 2025</strong>
+                <span>IIT Madras · 500+ participants</span>
+              </div>
+            </div>
+            <div class="ach-item special">
+              <div class="ach-rank">Top 100</div>
+              <div class="ach-detail">
+                <strong>ICT Hackathon 2025</strong>
+                <span>National · 3,000+ teams</span>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="ach-sub" style="margin-top: 2.5rem;">Leadership & Campus</h3>
+          <div class="ach-list">
+            <div class="ach-item campus">
+              <div class="ach-icon">🎓</div>
+              <div class="ach-detail">
+                <strong>Class Representative</strong>
+                <span>Elected rep for 60+ students, 2023–2025</span>
+              </div>
+            </div>
+            <div class="ach-item campus">
+              <div class="ach-icon">🤝</div>
+              <div class="ach-detail">
+                <strong>NSS Volunteer</strong>
+                <span>Community outreach · co-organized 5+ intercollege events</span>
+              </div>
+            </div>
+            <div class="ach-item campus">
+              <div class="ach-icon">🏭</div>
+              <div class="ach-detail">
+                <strong>Industry Visits</strong>
+                <span>Multiple technology organizations · hands-on exposure</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ach-right">
+          <h3 class="ach-sub">Competitive Programming</h3>
+          <div class="coding-stats">
+            <div class="lc-block">
+              <div class="lc-header">
+                <span class="lc-name">LeetCode</span>
+                <span class="lc-count">400+ solved</span>
+              </div>
+              <a href="https://leetcode.com/u/JEGANRAJ_P/" target="_blank" rel="noopener">
+                <img
+                  src="https://leetcard.jacoblin.cool/JEGANRAJ_P?theme=light&font=Karma&border=0&radius=8"
+                  alt="LeetCode Stats for JEGANRAJ_P"
+                  class="lc-card"
+                />
+              </a>
+              <p class="lc-note">Arrays · DP · Graphs · Trees · Strings</p>
+            </div>
+            <div class="hr-block">
+              <div class="hr-header">
+                <img src="logo-light.svg" alt="HackerRank" class="hr-logo" />
+                <span class="lc-count">100+ solved</span>
+              </div>
+              <p>Active on HackerRank with 100+ problems across data structures, algorithms, and SQL. Three verified certificates.</p>
+              <a href="https://www.hackerrank.com/profile/p_jeganraj00" target="_blank" rel="noopener" class="btn-outline sm">
+                View profile →
+              </a>
+            </div>
+          </div>
+
+          <h3 class="ach-sub" style="margin-top: 2rem;">Certifications</h3>
+          <div class="cert-list">
+            <div class="cert-item">
+              <span class="cert-grade elite-gold">Elite + Gold · 91%</span>
+              <div>
+                <strong>Human Computer Interaction</strong>
+                <span>NPTEL · 2026</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-grade elite-silver">Elite + Silver · 86%</span>
+              <div>
+                <strong>Foundations of R Software</strong>
+                <span>NPTEL · 2024</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-grade elite">Elite · 64%</span>
+              <div>
+                <strong>Introduction to IoT</strong>
+                <span>NPTEL · 2025</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-grade normal">Certified</span>
+              <div>
+                <strong>Full Stack MasterClass</strong>
+                <span>NoviTech · 2024</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-grade normal">Certified</span>
+              <div>
+                <strong>Java Programming</strong>
+                <span>Great Learning · 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <span class="section-label">Contact</span>
+      <h2 class="section-title">Let's talk —<br><em>I don't bite</em></h2>
+
+      <div class="contact-layout">
+        <div class="contact-left">
+          <p>
+            Whether you've got a project idea, a job opportunity, or just want to talk tech — 
+            feel free to reach out. I usually reply within a day.
+          </p>
+          <div class="contact-details">
+            <div class="cd-item">
+              <span class="cd-label">Email</span>
+              <a href="mailto:p.jeganraj00@gmail.com">p.jeganraj00@gmail.com</a>
+            </div>
+            <div class="cd-item">
+              <span class="cd-label">Phone</span>
+              <a href="tel:+918526364878">+91 85263 64878</a>
+            </div>
+            <div class="cd-item">
+              <span class="cd-label">Based in</span>
+              <span>Coimbatore, Tamil Nadu</span>
+            </div>
+            <div class="cd-item">
+              <span class="cd-label">Availability</span>
+              <span class="available">Open to opportunities</span>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://linkedin.com/in/jeganraj-palanisamy" target="_blank">LinkedIn</a>
+            <a href="https://github.com/jeganraj" target="_blank">GitHub</a>
+            <a href="https://leetcode.com/u/JEGANRAJ_P/" target="_blank">LeetCode</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me more..." required></textarea>
+          </div>
+          <button type="submit" class="btn-main">Send message</button>
+          <p class="form-success" id="form-success">Got it! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span>© 2025 Jeganraj Palanisamy</span>
+      <a href="#home" class="footer-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
